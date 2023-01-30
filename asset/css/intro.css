@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Crete+Round:ital@1&display=swap');
+h1,h2 ,h3, h4{
+  font-family: 'Crete Round', serif;
+}
+p{
+  font-family: 'Zen Antique Soft', serif;
+}
+.intro_section{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.intro{
+  padding-left: 50%;
+  display: flex;
+  align-items: center;
+  align-self:center;
+  justify-content: center;
+  text-align: center;
+   flex-direction: column;
+    font-family: 'Crete Round', serif;
+    /* font-size: 60px; */
+   
+}
+.py1{
+  /* font-si
+  
+  ze: 30px; */
+  /* font-weight: ; */
+  /* font-family: ; */
+}
+/* body{
+  width: 100%;
+} */
+/* navbar */
+/* .ml-auto{
+  /* border: 1px solid; */
+  /* width: 50%; */
+  /* color: black;
+  display: flex; */
+  /* gap: 3vh; */
+  /* justify-content: space-between;
+
+/* } */ 
+/* .btnnn{
+  padding-left: 50%;
+  display: flex;
+  a
+lign-items: center;
+  align-self:center;
+  justify-content: center;
+  text-align: center;
+ 
+   
+   
+    font-family: 'Crete Round', serif;
+} */
+
+.about{
+  min-height: 90vh;
+  background-color: rgba(249, 232, 232, 0.623);
+}
+.services{
+  min-height: 90vh;
+  background-color: rgba(250, 227, 227, 0.979);
+  padding-top: 50px;
+  
+}
+.featured{
+  margin: 0px;
+  padding: 10px;
+}
+.featured:hover{
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 2px #fcd9fc;
+  /* border: 2px solid rgba(250, 227, 227, 0.979); */
+  transition: all ease 0.3ms;
+}
+.team{
+  min-height: 90vh;
+  background-color: #fadfdf;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+footer{
+  background-color: rgb(247, 144, 107);
+}
+.blog{
+  min-height: 90vh;
+}

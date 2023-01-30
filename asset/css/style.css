@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Crete+Round:ital@1&display=swap');
+
+.banner-image {
+  background-image: url('../../images/bg_1[1]\ \(4\).jpg');
+  /* background-image: url('https://preview.colorlib.com/theme/kayelux/images/bg_1.jpg'); */
+  background-size: cover;
+  background-attachment: fixed;
+ /* background-position: fixed; */
+}
+.main{
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Zen Antique Soft', serif;
+}
+
+.bg-orange {
+  background-color: rgb(247, 144, 107);
+  color: rgb(8, 8, 8);
+}
+
+.opaque-navbar {
+  background-color: rgba(0, 0, 0, 0.062);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  height: 60px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+  background-color: black;
+  height: 60px;
+  transition: background-color .5s ease 0s;
+}
+
+@media (max-width: 992px) {
+  
+
+  .opaque-navbar {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    transition: background-color .5s ease 0s;
+  }
+
+  /* .navbar-dark .navbar-nav{
+  background-color: antiquewhite;
+  padding: -10px;
+  margin: 0px -17px;
+ padding: -10px;
+} */
+
+}
+
+
+
+
+@media(max-width: 920px) {
+    
+  /* body{
+    width: 90%;
+  } */
+    .navbar{
+      background-color: rgb(247, 144, 107);;
+    }
+
+    .para {
+        min-height: 800px;
+       
+    }
+}
+
+/* About Page */
+.about_page_head{
+  background-image:url(./images/R_D_based_beauty_products_1024x1024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+.overlay{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  z-index: -1;
+}
+
+.mt-123{
+  margin-top: 500px;
+}
+
+  /* future service */
+
+  .future_service{
+   
+    min-height: 90vh;
+    background-color:  #ffe6ff;
+    padding-bottom: 50px;
+  }
+
+
+  
+
+
+
+/* Price css */
+.pricing{
+  min-height: 90vh;
+
+}
+.price{
+ 
+ border: 2px solid rgb(241, 178, 178);
+}
+.price:hover{
+  background-color: bisque;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+}
+
+/* appointment */
+
+.appointment_section {
+  min-height: 90vh;
+  background-color: #ffe6e6;
+}
+
+/* blog css */
+.blog{
+min-height: 90vh;
+
+}
+
+
+/* serbices */
+
+.icons a{
+  text-decoration: none;
+  color: white;
+}
+
+.icon ion-icon{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+  color: #e67213;
+}
+
+/* Our Expert Makeup & Beautician Artist */
+
+/* icon font color=#8c8c8c */
+footer{
+  background-color: #db1717;
+  background-image: url('https://preview.colorlib.com/theme/kayelux/images/xbg_2.jpg.pagespeed.ic.k2FHEGn_FG.webp');
+  color: black;
+  /* background-color: rgb(255, 255, 255); */
+  
+}
+
