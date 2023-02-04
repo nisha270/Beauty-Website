@@ -6,7 +6,7 @@
   background-image: url('../../images/bg_1[1]\ \(4\).jpg');
   /* background-image: url('https://preview.colorlib.com/theme/kayelux/images/bg_1.jpg'); */
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,6 +59,9 @@
 } */
 
 }
+
+
+
 
 @media(max-width: 920px) {
     
