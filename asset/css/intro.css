@@ -20,6 +20,12 @@ p{
   width: 100%;
   height: 100vh;
 }
+li>a:hover{
+
+  color: red;
+  /* border: 1px solid black; */
+  /* color: #316ce8; */
+}
 .intro{
   padding-left: 50%;
   display: flex;
