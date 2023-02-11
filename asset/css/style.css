@@ -69,7 +69,7 @@
     
   
     .navbar{
-      background-color: rgb(247, 144, 107);;
+      background-color: rgb(247, 144, 107);
     }
 
     .para {
@@ -81,7 +81,7 @@
 /* About Page */
 
 .about{
-  padding: 50px 0px 0px 0px;
+  /* padding: 50px 0px 0px 0px; */
 }
 .text1{
   text-align: center;
@@ -89,8 +89,9 @@
 
 }
 .about_page_head{
+  border: 5px solid black;
   background-image:url(./images/R_D_based_beauty_products_1024x1024.jpg);
-  height: min-content;
+  /* height: min-content; */
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -116,6 +117,30 @@
 .mt-123{
   margin-top: 500px;
 }
+/* buttons */
+ .myservice1{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ 
+ }
+ .myservice1:hover{
+  box-shadow: none;
+ }
+ .myservice1>a{
+  color: rgb(237, 98, 47);
+  text-decoration: none;
+ }
+ .myservice2{
+  background-color: rgb(237, 98, 47);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+ }
+ .myservice2:hover{
+  box-shadow: none;
+ }
+ .myservice2>a{
+  color: white;
+  text-decoration: none;
+ }
 
   /* future service */
 
