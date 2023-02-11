@@ -145,14 +145,15 @@
   /* future service */
 
   .future_service{
-   
-    min-height: 90vh;
+   background-image: url("/images/bg_4\ f1.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+    min-height: 120vh;
     background-color:  #ffe6ff;
     padding-bottom: 50px;
   }
 
-
-  
 
 
 
