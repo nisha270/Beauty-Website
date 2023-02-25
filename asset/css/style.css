@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Crete+Round:ital@1&display=swap');
 
 .banner-image {
-  /* background-image: url('../../images/bg_1[1]\ \(4\).jpg'); */
+  background-image: url('../../images/bg_1[1]\ \(4\).jpg');
   /* background-image: url('https://preview.colorlib.com/theme/kayelux/images/bg_1.jpg'); */
   background-size: cover;
   /* background-attachment: fixed; */
@@ -152,10 +152,31 @@
     background-color:  #ffe6ff;
     padding-bottom: 50px;
   }
-
-
-
-
+  /* chat */
+  .features {
+    /* padding: 80px 0; */
+    background-color: #f9f9f9;
+  }
+  
+  .feature-item {
+    margin-bottom: 50px;
+  }
+  
+  .feature-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .feature-item img {
+    max-width: 100%;
+  }
+ 
 /* Price css */
 .pricing{
   min-height: 90vh;
