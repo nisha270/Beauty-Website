@@ -145,7 +145,7 @@
   
   .future_service{
    /* background-image: url("/images/bg_4\ f1.png"); */
-   background-image: url("/images/bg_4f5.png");
+   background-image: url("http://127.0.0.1:5500/images/bg_4f5.png");
    position: relative; /* Make the image positioned relative to its container */
   animation: slide-left 5s infinite;
 
