@@ -142,19 +142,22 @@
  }
 
   /* future service */
-
+  
   .future_service{
-   background-image: url("/images/bg_4\ f1.png");
+   /* background-image: url("/images/bg_4\ f1.png"); */
+   background-image: url("/images/bg_4f5.png");
+   position: relative; /* Make the image positioned relative to its container */
+  animation: slide-left 5s infinite;
+
    background-size: cover;
+   overflow:hidden;
    background-repeat: no-repeat;
    /* background-attachment: fixed; */
     min-height: 120vh;
     background-color:  #ffe6ff;
     padding-bottom: 50px;
   }
-  /* chat */
   .features {
-    /* padding: 80px 0; */
     background-color: #f9f9f9;
   }
   
@@ -176,7 +179,7 @@
   .feature-item img {
     max-width: 100%;
   }
- 
+
 /* Price css */
 .pricing{
   min-height: 90vh;
