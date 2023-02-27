@@ -179,8 +179,12 @@
   .feature-item img {
     max-width: 100%;
   }
+  .sec4{
+    margin-top: 65px ;
+  }
   .s41{
-    
+      /* margin: 65px 0px 0px 0px; */
+
   }
 
 /* Price css */
